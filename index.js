@@ -1,7 +1,18 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+  for(let i = 0; i <= array.length; i++){
+    let sum = i;
+   
+      sum += i;
+
+    return sum === target;
+  }
 }
 
+let array = [1,2,3,4]
+let target = 3
+
+console.log(hasTargetSum(array, target))
 /* 
   Write the Big O time complexity of your function here
 */
